@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Footer.scss';
 import { isContext } from 'vm';
 
-import pontosImage from "../images/icon-pontos.svg"
+import pontosImage from "../images/icon-pontos-vermelho.svg"
 import farejarImage from "../images/icon-focinho.svg"
 
 import pontosImageBranco from "../images/icon-pontos-branco.svg"
@@ -15,7 +15,7 @@ class Footer extends Component {
         return (
             <footer className="main-footer">
                 <div>
-                    <img src={this.props.page == "pontos"? pontosImage : pontosImageBranco} />
+                    <img src={this.props.page == "dashboard"? pontosImage : pontosImageBranco} />
                     <p>Pontos</p>
                 </div>
                 <div>

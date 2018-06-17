@@ -1,0 +1,87 @@
+@import  'bootstrap/scss/bootstrap.scss';
+.dashboard-section{
+
+
+    h1{
+
+        text-transform: uppercase;
+        text-align: center;
+        color: #e08d2b;
+        font-size: 19px
+    };
+
+    .container-total{
+        @extend .d-flex;
+        @extend .justify-content-around;
+
+            h2{
+                font-size: 13px;
+            }
+
+            h3{
+                font-size: 20px;
+                font-weight: bold;
+                color: #777878;
+            
+            }
+    }
+
+    nav{
+        @extend .d-flex;
+        @extend .justify-content-around;
+        overflow: hidden;
+        border-bottom: 1px solid #e08d2b;
+
+
+        button{
+
+            background: white;
+            border: 1px solid #e08d2b;
+            padding: 10px;
+            border-radius: 9px;
+            color: #e08d2b;
+            font-weight: bold;
+            margin-bottom: -7px;
+            width: 155px;
+        }
+
+        button.selected{
+
+            background: #e08d2b;
+            color: white;        }
+    }
+
+
+    ul{
+        list-style: none;
+        margin-left: 0;
+        padding: 0 16px;
+
+        li{
+
+            @extend .d-flex;
+            @extend .justify-content-between;
+
+            margin : 10px 0;
+
+            div{
+                h2{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                h3{
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+            }
+
+            p{
+                font-size: 23px;
+                font-weight: bold;
+                @extend .mb-0;
+                color: #e08d2b
+            }
+        }
+    }
+}
