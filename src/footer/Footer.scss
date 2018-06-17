@@ -1,0 +1,29 @@
+@import  'bootstrap/scss/bootstrap.scss';
+
+footer.main-footer{
+
+    @extend .col-12;
+    @extend .d-flex;
+    @extend .justify-content-between;
+
+    background: #e08d2b;
+    height: 46px;
+    position: fixed;
+    bottom : 0;
+
+    div{
+        color: white;
+        text-align: center;
+        img{
+            width: 20px;
+            cursor: pointer;
+        }
+
+        p{
+
+            @extend .mb-0;
+
+        }
+    }
+    
+}

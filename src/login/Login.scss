@@ -1,0 +1,43 @@
+@import  'bootstrap/scss/bootstrap.scss';
+
+
+/*    --------------------------------------------------
+	:: Login Section
+  -------------------------------------------------- */
+.main-login{
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-center;
+  @extend .col-12;
+  min-height: 667px;
+  background: url("../images/login-background.png");
+
+  .container-form{
+      @extend .d-flex;
+      @extend .flex-column;
+      @extend .justify-content-center;
+      width : 80%;
+      margin : 0 auto;
+      
+      input {
+        border: 1px solid rgb(193, 61, 39);
+        border-radius: 5px;
+        text-align: center;
+        @extend .mt-2;
+        @extend .p-1;
+      }
+
+      button{
+        border-radius: 21px;
+        background: #db8127;
+        border: 0;
+        box-shadow: 1px 4px 15px #424242;
+        color: white;
+        width: 60%;
+        margin: 26px auto;
+        padding: 14px;
+        font-weight: bold;
+        font-size: 12px;
+      }
+  }
+}

@@ -1,0 +1,106 @@
+@import  'bootstrap/scss/bootstrap.scss';
+
+
+/*    --------------------------------------------------
+	:: Login Section
+  -------------------------------------------------- */
+
+
+.main-icons{
+
+.iconYellowHouse{
+  background: url("../../images/icon-casa-amarela-destaque.svg");
+  width: 80px;;
+  height: 80px;
+  background-repeat: no-repeat;
+
+}
+
+  div.biddingInfo{
+
+    width: 255px;
+    height: 239px;
+    background: white;
+    padding: 28px;
+    box-shadow: 7px 3px 28px #8c8c8c;
+    border-radius: 11px;
+
+    header.title{
+
+      h2{
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+        color: #777777;
+      }
+
+      h3{
+        text-transform: uppercase;
+        font-size: 8px;
+        text-align: center;
+        font-weight: bold;
+        color: #fabb6f;
+      }
+    }
+
+    .values{
+
+
+      text-align: left;
+
+        div{
+
+          @extend .d-flex;
+
+          h2 {
+          font-size: 12px;
+          font-weight: normal;
+          color: #b9b9b8;
+          }
+
+          p{
+            @extend .ml-1;
+          }
+        }
+    }
+
+
+    .message{
+
+      p{
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+
+    footer{
+
+       @extend .d-flex;
+      
+
+      button{
+        border-radius: 9px;
+        background: white;
+        border: 1px solid #e5a250;
+        padding: 14px;
+        color: #cf674a;
+
+        &:hover{
+            background:  #fabb6f;
+            color: white;
+        }
+
+      }
+
+      p{
+        text-align: center;
+        margin-bottom: 0;
+        background: #e1e1e1;
+        margin: 6px;
+        border-radius: 9px;
+      }
+    }
+
+  }
+}
